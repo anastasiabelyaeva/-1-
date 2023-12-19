@@ -1,0 +1,791 @@
+@font-face {
+    font-family: Muller;
+    src: url("fonts/ofont.ru_Muller.ttf");
+}
+@font-face {
+    font-family: Muller Bold;
+    src: url("fonts/ofont.ru_Muller\(1\).ttf");
+}
+@font-face {
+    font-family: Russo One;
+    src: url("fonts/RussoOne-Regular.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body{
+    font-family: Muller;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 60px;
+    font-family: Russo One;
+    padding-top: 90px;
+}
+/*------header------*/
+
+.bt1{
+    background: black;
+    color: white;
+    height: 50px;
+    width: 132px;
+    border-radius: 77px;
+    font-size: 16px;
+    text-align: center;
+}
+.left{
+  display: flex;
+  gap: 64px;
+}
+.mA{
+    border: 2px solid #57D272;
+    width: 95px;
+    height: 28px;
+    display: flex;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+.menu {
+    font-size: 20px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+}
+/*-------kv1-------*/
+.kv1{
+    height: 680px;
+    background: url(img/stickers_hero.png) black no-repeat 93.5%;
+    margin-top: 0%;
+}
+.but{
+    display: flex;
+    align-items: left;
+    margin: 136 px ;
+    font-family: Muller Bold;
+    flex-direction:column;
+    gap: 36px;
+}
+.bt2{
+    font-size: 20px;
+    color: black;
+    background:linear-gradient(rgb(0, 217, 255),rgb(0, 255, 191)) ;
+    height: 70px;
+    width: 176px;
+    border-radius: 100px;
+    text-align: center;
+    font-family: Muller Bold;
+}
+.bt3{
+    font-size: 20px;
+    color: white;
+    background: black;
+    border: 5px solid  #46F4DB;
+    /* border-image: linear-gradient(rgb(0, 217, 255),rgb(0, 255, 191)); */
+    border-radius: 40px;
+    border-image-slice:10% ;
+    height: 70px;
+    width: 247px;
+    text-align: center;
+    font-family: Muller Bold;
+}
+.button1{
+    display: flex;
+    align-items: left;
+    margin: 36 px ;
+    font-family: Muller Bold;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: Russo One;
+    font-size: 70px;
+    padding-top: 160px;
+    
+}
+/*-----auction-----*/
+.au{
+    color: black;
+    font-family: Russo One;
+    font-size: 60px;
+    
+}
+.bu1{
+    padding-top: 110px;
+}
+.bt4 li{
+    color: red;
+}
+.bt4{
+    background: white;
+    font-family: Muller;
+    border: 3px solid red ;
+    border-radius: 40px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    width: 135px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+     
+}
+.volk{
+    height: 460px;
+    width: 460px;
+    padding-top: 32px;
+    padding-bottom: 90px;
+}
+.st{
+    display: flex;
+    flex-direction:column ;
+    padding-top: 32px;
+    padding-left: 16px;
+}
+.serge1{
+    height: 70px;
+    width: 228px;
+    border-radius: 23px;
+    background: #EDEDF2;gap: 16px;
+}
+.serge{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Muller;
+    padding-top: 11px;
+}
+.serge img{
+    padding-right: 16px;
+    
+}
+.wit{
+    font-size: 48px;
+    padding-top: 32px;
+    font-family: Muller;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.skBT5{
+    padding-top: 32px;
+}
+.bt5{
+    color: black;
+    background:rgb(0, 255, 191);
+    height: 70px;
+    width: 296px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Muller Bold;
+    border: 1px solid rgb(0, 255, 191);
+}
+.vl{
+    display: flex;
+    flex-direction:row ;
+    gap: 16px
+}
+.sttim{
+    display: flex;
+    flex-direction:row ;
+    padding-top: 32px;
+    gap: 32px;
+    
+}
+.stavka{
+    background: rgb(209, 209, 209);
+    border-radius: 40px;
+    height: 174px;
+    width: 296px;
+    text-align: left;
+    line-height: 30px;
+    
+}
+.st1{
+    color: black;
+    font-size: 20px;
+    font-family: Muller;
+    padding-bottom: 16px;
+    padding-top: 32px;
+    padding-left: 32px;
+    
+}
+.ETH{
+    color: black;
+    font-size: 48px;
+    font-family: Muller;
+    padding-bottom: 9px;
+    padding-left: 32px;
+}
+.dollar{
+    color: #95959D;
+    font-size: 20px;
+    font-family: Muller;
+    font-style: normal;
+    padding-left: 32px;
+}
+.timer{ 
+    background: url("img/часы.png") no-repeat 90% black;;
+    border-radius: 40px;
+    height: 174px;
+    width: 460px;
+    line-height: 30px;
+   
+}
+.timer img{
+    position: absolute;
+    top: 1170px;
+    left: 1525px;
+}
+.ok{
+    color: white;
+    font-size: 20px;
+    font-family: Muller;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+}
+.vrema1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-right: 26px;
+}
+.vrema2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 26px;
+}
+.vrema3{
+    display: flex;
+    flex-direction: column;
+}
+.vrema4{
+    display: flex;
+    flex-direction: row;
+}
+.vrema{
+    color: white;
+    font-size: 48px;
+    font-family: Muller;
+}
+.ob{
+    color: white;
+    font-size: 20px;
+    font-family: Muller;
+    padding-top: 13px;
+    text-align: center;
+}
+.dr{
+    font-size: 20px;
+    font-family:Russo One;
+    padding-bottom: 32px;
+}
+.a1{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.zastavka{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 16px;
+}
+.zastavka p{
+    color: white;
+    padding-top: 4px;
+}
+.auction {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.auction > div {
+    width:296px;
+    height: 342px;
+    background:linear-gradient( #EDEDF2 50%, black 50%) ;
+    border-radius: 45px;
+}
+.auction img{
+    height: 160px;
+    width: 160px;
+    display: flex;
+    padding-left: 68px;
+    padding-top: 7px;
+
+}
+.kolonka{
+    display: flex;
+    flex-direction: column;
+}
+.auction .gost{
+    height: 160px;
+    width: 186px;
+    flex-direction:row ;
+    gap: 68px;
+    padding-left: 55px;
+    padding-top: 7px;
+}
+.nzv{
+    color: white;
+    font-size: 20px;
+    padding-top: 16px;
+}
+.many{
+    font-size: 20px;
+    color: #46F4DB;
+    padding-top: 12px;
+
+}
+.vr{
+    font-size: 16px;
+    color: #95959D;
+    padding-top: 8px;
+}
+.au1 p{
+    padding-left: 16px;
+}
+.au1 .i1{
+    width: 24px;
+    height: 24px;
+    padding-left: 16px;
+}
+.b6{
+    display: flex;
+    padding: 25px 54px;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 32px;
+}
+.bt6{
+    font-size: 20px;
+    background: white;
+    color: black;
+    border: 5px solid  #46F4DB;
+   border-radius: 40px;
+    border-image-slice:10% ;
+    height: 70px;
+    width: 296px;
+    text-align: center;
+    font-family: Muller ;
+}
+/*------------kv2------------*/
+.kva2{
+    padding-top: 64px;
+}
+.kv2{
+    height: 684px;
+    background: black 100%;
+}
+.novST{
+    font-size: 57px;
+    font-family: Russo One;
+    color: white;
+    padding-top: 85px;
+}
+.pr1{
+   height: 300px;
+   width: 300px;
+   padding-top: 32px;
+
+}
+.pr2{
+    height: 300px;
+    width: 300px;
+    padding-top: 32px;
+}
+.pr3{
+    height: 300px;
+    width: 624px;
+    padding-top: 32px;
+}
+
+.pr{
+    display: flex;
+    flex-direction:row ;
+    gap: 28px;
+    align-items: center;
+}
+.kn{
+    display: flex;
+    flex-direction:row ;
+    gap: 20px;
+    padding-top: 64px;
+    align-items: center;
+    padding-left: 500px;
+    
+}
+.k1{
+    color: white;
+    background: red;
+    border: 2px solid red;
+    border-radius: 40px;
+    height: 36px;
+    width: 54px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.k2{
+    color: white;
+    border: 2px solid red;
+    border-radius: 40px;
+    height: 36px;
+    width: 54px;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/*------------kv3------------*/
+.kv3{
+    height: 391px;
+    background: #D13130;
+}
+.kk{
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+}
+.kk section{
+    padding-top: 16px;
+}
+.ruk{
+    display: flex;
+    flex-direction: row;
+}
+.her{
+    font-family: Muller;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    width: 430px;
+    height: 70px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    background: black;
+    color: white;
+    padding-left: 32px;
+}
+.gal{
+    display: flex;
+    flex-direction: row;
+}
+.gal img{
+    height: 14px;
+    width: 14px;
+}
+.gal p{
+    font-size: 12px;
+    font-family: Muller;
+    color: white;
+    padding-left: 8px;
+    font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.ruki1{
+    height: 391px;
+    width: 788px;
+}
+.bu{
+    color:white;
+    font-family: Russo One;
+    font-size: 20px;
+    font-style: normal;
+    width: 500px;
+    line-height: normal;
+    padding-bottom: 32px;
+}
+.bt8{
+    display: flex;
+    width: 296px;
+    padding: 25px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    background: #46F4DB;
+    color: black;
+    text-align: center;
+    font-family: Muller;
+    font-size: 20px;
+    line-height: normal;
+    border: 1px solid  #46F4DB;
+    
+}
+/*------------kv4------------*/
+.kv4{
+    height: 740px;
+    
+}
+.kv4 p{
+    width: 624px;
+    font-size: 20px;
+}
+.es{
+    padding-top: 16px;
+    color: black;
+    font-family: Russo One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ot{
+    padding-top: 16px;
+    padding-bottom: 32px;
+    color: black;
+    font-family: Muller ;
+    font-size: 20px;
+    font-style:normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.Dob{
+    padding-bottom: 32px;
+    padding-top: 100px;
+}
+.dob{
+    width: 624px;
+    height: 342px;
+    border-radius: 40px;
+    background:  #EDEDF2;
+}
+.pl{
+    width: 100px;
+    height: 100px;
+    padding-left: 268px;
+    padding-top: 98px;
+}
+.prik{
+    color:  #95959D;
+    text-align: center;
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 30px;
+    padding-top: 16px;
+}
+.tgg{
+    display: flex;
+    align-items: center;
+    width: 565px;
+    height: 55px;
+    padding: 10px 32px;
+    gap: 10px;
+    background:  #EDEDF2;
+    border-radius: 40px;
+}
+.Tg{
+    padding-bottom: 32px;
+}
+.tg{
+    color: #717178;
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.bt7{
+    display: flex;
+    width: 296px;
+    padding: 25px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    background: #46F4DB;
+    color: black;
+    text-align: center;
+    font-family: Muller;
+    font-size: 20px;
+    line-height: normal;
+    border: 1px solid  #46F4DB;
+    
+}
+.sta{
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-bottom: 90px;
+}
+.STA{display: flex;
+    flex-direction: row;
+}
+/*------------kv5------------*/
+.kv5{
+    background: black;
+    height: 870px;
+}
+.kv5 h2{
+    color: white;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-top: 32px;
+}
+.top > div {
+    width:624px;
+    height: 174px;
+    background:linear-gradient(to right, #EDEDF2 23%, white 20%) ;
+    border-radius: 40px;
+}
+.ikon{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    font-size: 16px;
+}
+.ikon p{
+    padding-left: 8px;
+}
+.ikon img{
+    height: 24px;
+    width: 24px;
+}
+.bol{
+    font-size: 48px;
+    padding-top: 3px;
+}
+.au2{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    font-family: Muller;
+    padding-left: 32px;
+   
+}
+.dengi{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px; 
+    padding-top: 9px;
+}
+.ser{
+    padding-left: 6px;
+    color:  #95959D;
+}
+.im{
+    height: 145px;
+    width: 126px;
+    padding-top: 13px;
+    padding-left: 16px;
+}
+/*-------kv6-------*/
+.kv6{
+    background: #37373E;
+    height: 232px;
+}
+.kv6 p{
+    font-family: Muller;
+   
+}
+.zg{
+    padding-top: 32px;
+    font-size: 24px;
+    color: white;
+}
+.mi{
+    font-size: 18px;
+    color: white; 
+    padding-left: 8px;
+}
+.hb{
+    display: flex;
+    flex-direction: row;
+}
+.smail{
+    padding-top: 32px;
+    padding-left: 424px;
+}
+.neob img{
+    height: 32px;
+    width: 32px;
+}
+.neob p{
+    padding-left: 8px;
+    text-align: center;
+}
+.neob{
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    align-items: center;
+}
+/*-------kv7-------*/
+.kv7{
+background: #46F4DB;
+height: 80px;
+}
+.niz{
+  padding-top: 20px;
+}
+.te p{
+font-size: 20px;
+font-family: Muller;
+padding-top: 17px;
+
+}
+.te{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-items: center;
+    padding-left: 860px;
+}
+.kon{
+    display: flex;
+    flex-direction: row;
+}
+/*-------kv8-------*/
+.kv8{
+    background: black;
+    height: 28px;
+}
+.kv8 p{
+    font-size: 12px;
+    font-family: Muller;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+
